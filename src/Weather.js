@@ -40,7 +40,7 @@ export default function Weather() {
       </div>
       <div className="row">
         <div className="col-6">
-          <h1 id="city"></h1>
+          <h1 id="city">City</h1>
           <ul>
             <li id="current-temp">temperature</li>
             <li id="sky">sunny</li>
@@ -56,10 +56,10 @@ export default function Weather() {
         <div className="col-6">
           <span className="temperature" id="temperature"></span>
           <span className="units">
-            <a href="#" id="celsius-link">
+            <a href="/" id="celsius-link">
               °C
             </a>
-            <a href="#" id="fahrenheit-link">
+            <a href="/" id="fahrenheit-link">
               °F
             </a>
           </span>
