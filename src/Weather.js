@@ -40,7 +40,7 @@ export default function Weather() {
       </div>
       <div className="row">
         <div className="col-6">
-          <h1 id="city">City</h1>
+          <h1 id="city">${city}</h1>
           <ul>
             <li id="current-temp">temperature</li>
             <li id="sky">sunny</li>
