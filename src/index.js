@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Weather from "./Weather";
-import Location from "./Location";
 
 import "./App.css";
 
