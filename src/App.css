@@ -36,3 +36,7 @@ h1 {
 .todaytemp {
   font-size: 25px;
 }
+
+.footer {
+  font-size: smaller;
+}
