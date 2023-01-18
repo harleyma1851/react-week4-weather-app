@@ -1,12 +1,12 @@
 body {
   font-family: "DotGothic16", sans-serif;
   font-family: "Uchen", serif;
-  max-width: 60%;
+
 }
 
 .container {
   max-width: 60%;
-  content: center;
+
 }
 
 .App {
