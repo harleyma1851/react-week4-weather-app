@@ -1,6 +1,10 @@
 import React from "react";
+import axios from "axios";
 
 export default function Weather() {
+  const apiKey = "ee92b3aa969be9b032535442tfo57250";
+  let city = "Lisbon";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=ee92b3aa969be9b032535442tfo57250&units=metric`;
   return (
     <>
       <div className="Weather">
