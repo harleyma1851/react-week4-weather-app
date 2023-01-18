@@ -6,7 +6,7 @@ body {
 
 .container {
   max-width: 60%;
-
+  min-width: 40%;
 }
 
 .App {
