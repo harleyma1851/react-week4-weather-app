@@ -28,9 +28,8 @@ export default function Weather() {
                 className="btn btn-success w-100"
                 id="current-location-button"
               >
-                Current{" "}
+                Current
                 <span className="emoji" role="img">
-                  {" "}
                   📍
                 </span>
               </button>
@@ -38,6 +37,7 @@ export default function Weather() {
           </div>
         </form>
       </div>
+      <br></br>
       <div className="row">
         <div className="col-6">
           <h1 id="city">City</h1>
